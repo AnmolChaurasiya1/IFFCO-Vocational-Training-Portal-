@@ -120,11 +120,7 @@ CREATE TABLE `attendance` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `roll_no`, `department`, `batch`, `contact_info`, `role`, `status`, `created_at`, `college`, `program`, `semester`, `duration`, `noc_path`, `referral_type`, `referral_path`) VALUES
 (1, 'Admin User', 'admin@example.com', '$2y$10$i8qZYMQpnCArs9SgudeOp..Svvhx2c2N5kek.hAo8mywmfaO4gcg6', NULL, NULL, NULL, NULL, 'admin', 'approved', '2025-06-22 06:18:36', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(14, 'Student User', 'student@example.com', '$2y$10$4qQsKUUG.nu9N48QEl6ze.FBp0nUJWdOESNiS3eX1qOl5afHdWlLK', '25CS1', 'CS', '2025', '90909090909', 'user', 'approved', '2025-06-24 14:42:35', 'AMITY', NULL, 'III', NULL, 'uploads/25CS1/noc_685ab95b92cc6_New Text Document.pdf', 'University', 'uploads/25CS1/ref_685ab95b92cca_New Text Document.pdf'),
-(18, 'Sumit', 's@s.com', '$2y$10$5d1qjayXQpLa.KZU/K12CeJ4CpV2jjRbYnegjaWFmWCeDHb46gHCy', '25CS2', 'CS', '2025', 'N/A', 'user', 'approved', '2025-06-24 16:31:52', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(23, 'Rachit', 'r@r.com', '$2y$10$UjjM5/mQInHEIrYaGC78FeNWS6naqD/hC7p3UV/6pZH5Tc7rkA6uy', '25INST1', 'Instrumentation', '2025', '90909090909', 'user', 'approved', '2025-06-24 19:16:49', 'KIIT', 'B.Sc.', 'IX', '1 Month', 'uploads/25INST1/noc.pdf', 'Employee', 'uploads/25INST1/referral.pdf'),
-(24, 'Surya Mani Pandey', 'smpandey@iffco.in', '$2y$10$05ZIgU16vItxwEhPNZV6Y.QT5ykOnkp0v9BDV3Jd6Xe6eIDoi8qy6', '25CHE1', 'Chemical', '2025', '90909090909', 'user', 'approved', '2025-06-24 19:18:43', 'AMITY', 'PhD', 'IX', '2 Month', 'uploads/25CHE1/noc.pdf', 'University', 'uploads/25CHE1/referral.pdf'),
-(25, 'Rachit Pandey', 'rachit@gmail.com', '$2y$10$otT/6OxvxW24Utp.wlhbSeYM7DF9oESoCjejaq4JzUUvaCnkgW7QS', '25CS3', 'CS', '2025', '9616425263', 'user', 'approved', '2025-06-27 16:59:22', 'KIIT', 'B.Tech.', 'VIII', '2 Month', 'uploads/25CS3/noc.pdf', 'University', 'uploads/25CS3/referral.pdf');
+(14, 'Student User', 'student@example.com', '$2y$10$4qQsKUUG.nu9N48QEl6ze.FBp0nUJWdOESNiS3eX1qOl5afHdWlLK', '25CS1', 'CS', '2025', '90909090909', 'user', 'approved', '2025-06-24 14:42:35', 'AMITY', NULL, 'III', NULL, 'uploads/25CS1/noc_685ab95b92cc6_New Text Document.pdf', 'University', 'uploads/25CS1/ref_685ab95b92cca_New Text Document.pdf');
 
 
 --
